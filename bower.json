@@ -1,0 +1,11 @@
+{
+  "name": "FirstStepAngular",
+  "version": "0.0.1",
+  "description": "Ejemplo de desarrollo de aplicación web con JavaScript",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "angular-resource": "^1.6.6",
+    "bootstrap": "^3.3.7"
+  }
+}

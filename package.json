@@ -1,0 +1,24 @@
+{
+  "name": "FirstStepAngular",
+  "version": "0.0.1",
+  "description": "Ejemplo de desarrollo de aplicación web con JavaScript",
+  "bugs": {
+    "url": "https://github.com/Pantgom/FirstStepAngular/issues",
+    "email": "pantgom@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Pablo Antúnez",
+    "email": "pantgom@gmail.com",
+    "url": "http://eprofexinnovation.es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pantgom/FirstStepAngular"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}

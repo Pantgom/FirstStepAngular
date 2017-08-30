@@ -1,0 +1,41 @@
+-----------------------------------------------------------------------
+GIT:
+-----------------------------------------------------------------------
+touch README.md
+git init
+git add README.md
+git commit -m "comentario"
+git remote add origin https://github.com/Pantgom/Repositorio.git
+git push -u origin master
+
+Ang next:
+git status
+git add .
+git commit -m "comentario"
+git push
+
+-----------------------------------------------------------------------
+GULP
+-----------------------------------------------------------------------
+Install in global mode:
+sudo npm install -g bower
+sudo npm install -g gulp
+
+Now in the directory:
+npm install --save-dev gulp
+npm install --save-dev gulp-connect
+npm install --save-dev gulp-stylus
+npm install --save-dev nib
+
+This works in combination with gulpfile.js.
+Type gulp and server and other taks run
+
+-----------------------------------------------------------------------
+BOWER
+-----------------------------------------------------------------------
+.bowerrc with info about path
+bower install --save angular
+bower install --save angular-route
+bower install --save angular-resource
+
+

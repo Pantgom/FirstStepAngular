@@ -1,0 +1,28 @@
+<!-- index.html -->
+<html ng-app='angularRoutingApp'>
+        <head>
+          <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="/stylesheets/main.css">
+          <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+          <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.js"></script>
+          <script src="scripts/app.js"></script>
+          
+         </head>
+        <body ng-controller='mainController'>
+          <header>
+            <h1>Angular Routing</h1>
+              <nav> 
+                <ul> 
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#acerca">Acerca de</a></li>
+                  <li><a href="#contacto">Contacto</a></li> 		</ul> 
+              </nav>
+            </header>
+            <div id="main">
+              <!-- Aquí inyectamos las vistas -->
+              <div ng-view></div> 
+            </div>
+
+
+          </body>
+          </html>
